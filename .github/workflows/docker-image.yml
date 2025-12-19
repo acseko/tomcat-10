@@ -16,6 +16,8 @@ jobs:
 
   configure:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
       RELEASE: ${{ steps.set-release.outputs.RELEASE }}
