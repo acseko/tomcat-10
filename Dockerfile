@@ -1,4 +1,4 @@
-FROM redhat/ubi9:latest
+FROM redhat/ubi10:latest
 
 LABEL org.opencontainers.image.title=MyTomcatDemo
 LABEL org.opencontainers.image.description="Nothing to prod, only demo"
