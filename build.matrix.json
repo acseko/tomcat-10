@@ -2,7 +2,7 @@
   "include": [
     {
         "tomcat_version": "10",
-        "openjdk_version": "17"
+        "openjdk_version": "25"
     },
     {
         "tomcat_version": "10",
@@ -10,7 +10,7 @@
     },
     {
         "tomcat_version": "11",
-        "openjdk_version": "17"
+        "openjdk_version": "25"
     },
     {
         "tomcat_version": "11",
